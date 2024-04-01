@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    width:900px;
+    margin:auto;
+}
+.header{
+    display:grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;
+}
+.grid-a{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    background-color: rgb(7, 8, 8);
+    color: aliceblue;
+    border-radius: 50px;
+}
+img{
+    width:100%;
+
+}
+.header-box{
+   align-self: center;
+}
+.container-1{
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+     grid-template-rows: 1fr; 
+     align-self: center;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius:50px ;
+   
+
+}
+ .grid-b{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+     grid-template-rows: 1fr; 
+     margin-bottom: 10px;
+    padding: 20px;
+
+}
+.text-monial{
+    align-self: center;
+}
+.profile-card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 20px;
+        
+        
+}
+.list{
+    list-style: none;
+    margin: 10px;
+    list-style: circle;
+}
+.sub-header{
+     font-size: 30px;
+}
+.button:hover{
+    font-weight: bold;
+    color: beige;
+    background-color:rgb(219, 14, 96);
+}
+.button{
+    cursor: pointer;
+    text-align:center;
+    background-color: black;
+    cursor: pointer ;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+    border-radius: 100px;
+    font-size: small;
+    padding: 5px;
+    
+}
+.profile{
+    box-shadow: 0 10px 10px 0 black;
+    border-radius: 40px;
+    
+    }
+img{
+    border-radius: 50px ;
+    width: 100%;
+
+}
+.chair-icon{
+    width: 30px;
+    height: 30px;
+    stroke: black;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+}
+
+
+li{
+    list-style: none;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:gray;
+    color: aliceblue;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 50px;
+}
+.cart{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+    
